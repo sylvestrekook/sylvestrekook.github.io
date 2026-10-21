@@ -1,5 +1,5 @@
 # Automatic build + deploy to GitHub Pages (gh-pages branch) on every push to main.
-# Owner-page compatible: checkout -> hugo -> push ./public to gh-pages via git worktree.
+# Owner-page compatible: checkout -> hugo -> git init + push ./public to gh-pages.
 name: CI
 
 on:
@@ -33,22 +33,22 @@ jobs:
       - name: Build Site
         run: hugo --minify --gc
 
-      - name: Setup Git identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Deploy to gh-pages
         run: |
           set -euxo pipefail
-          cd "$GITHUB_WORKSPACE"
+          # Fresh orphan branch for the built site
           rm -rf /tmp/pages
           mkdir -p /tmp/pages
-          git worktree add -B gh-pages /tmp/pages gh-pages || { git init /tmp/pages; (cd /tmp/pages && git checkout -b gh-pages); }
+          cp -r "$GITHUB_WORKSPACE/public/." /tmp/pages/
+          touch /tmp/pages/.nojekyll
           cd /tmp/pages
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} + 2>/dev/null || true
-          cp -r "$GITHUB_WORKSPACE/public/." .
-          touch .nojekyll
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b gh-pages
           git add -A
-          git commit -m "Deploy: $(cd $GITHUB_WORKSPACE && git rev-parse --short HEAD)" || echo "No changes"
+          git commit -m "Deploy: $(cd $GITHUB_WORKSPACE && git rev-parse --short HEAD)"
+          git remote add origin https://github.com/sylvestrekook/sylvestrekook.github.io.git
           git push origin gh-pages --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
