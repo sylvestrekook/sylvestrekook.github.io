@@ -1,6 +1,6 @@
 # Sylvestre KOOK — personal site config (Hugo + PaperMod)
 # Finance · Technology · Christianity  |  Professional · Analytical · Faith-driven · Minimalist
-baseURL = "https://sylvestre-kook.github.io/"
+baseURL = "https://sylvestrekook.github.io/"
 languageCode = "en-au"
 defaultContentLanguage = "en"
 title = "Sylvestre KOOK"
