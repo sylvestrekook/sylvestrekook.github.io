@@ -70,18 +70,3 @@ outputs.home = ["HTML", "RSS", "JSON"]
     email = { url = "mailto:<REDACTED_EMAIL>" }
   [params.profileMode]
     enabled = false
-
-# ---- First-class Korean language (Korean audience) ----
-[languages]
-  [languages.en]
-    weight = 1
-    title = "Sylvestre KOOK"
-    [languages.en.params]
-      description = "Personal site of Sylvestre Kook — Finance, Technology, and Christianity."
-  [languages.ko]
-    weight = 2
-    title = "Sylvestre KOOK"
-    languageName = "한국어"
-    baseURL = "https://sylvestre-kook.github.io/ko/"
-    [languages.ko.params]
-      description = "Sylvestre Kook의 개인 사이트 — 금융, 기술, 기독교."
