@@ -1,5 +1,5 @@
-# Automatic build + deploy to GitHub Pages on every push to main.
-# Deploys to gh-pages branch via peaceiris/actions-gh-pages (owner-page compatible).
+# Automatic build + deploy to GitHub Pages (gh-pages branch) on every push to main.
+# Owner-page compatible: checkout -> hugo -> push ./public to gh-pages via git worktree.
 name: CI
 
 on:
@@ -8,9 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # needed to push gh-pages
-  pages: write
-  id-token: write
+  contents: write   # push to gh-pages
 
 concurrency:
   group: "pages"
@@ -23,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: false
           fetch-depth: 0
 
       - name: Setup Hugo (extended)
@@ -32,16 +30,25 @@ jobs:
           hugo-version: "0.158.0"
           extended: true
 
-      - name: Build
+      - name: Build Site
         run: hugo --minify --gc
 
-      # ---- Deploy: push ./public to the gh-pages branch ----
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          cname: ""
-          keep_files: false
-          exclude_assets: ".git,.github,README.md,LICENSE"
+      - name: Setup Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy to gh-pages
+        run: |
+          set -euxo pipefail
+          cd "$GITHUB_WORKSPACE"
+          rm -rf /tmp/pages
+          mkdir -p /tmp/pages
+          git worktree add -B gh-pages /tmp/pages gh-pages || { git init /tmp/pages; (cd /tmp/pages && git checkout -b gh-pages); }
+          cd /tmp/pages
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} + 2>/dev/null || true
+          cp -r "$GITHUB_WORKSPACE/public/." .
+          touch .nojekyll
+          git add -A
+          git commit -m "Deploy: $(cd $GITHUB_WORKSPACE && git rev-parse --short HEAD)" || echo "No changes"
+          git push origin gh-pages --force
