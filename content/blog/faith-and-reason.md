@@ -1,6 +1,7 @@
 ---
 title: "Faith and Reason: Why They Are Not Rivals"
 date: 2026-10-21T09:00:00+11:00
+slug: "faith-and-reason"
 categories: ["Christianity"]
 tags: ["faith", "reason", "practice"]
 draft: false
