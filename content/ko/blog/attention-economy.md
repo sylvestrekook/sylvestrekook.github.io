@@ -1,7 +1,6 @@
 ---
 title: "주의의 경제학: 실제로 무엇을 바꾸는가"
 date: 2026-10-21T09:00:00+11:00
-slug: "attention-economy"
 categories: ["기술"]
 tags: ["주의", "ai", "productivity"]
 draft: false

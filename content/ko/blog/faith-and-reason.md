@@ -1,7 +1,6 @@
 ---
 title: "신앙과 이성: 왜 적대가 아닌가"
 date: 2026-10-21T09:00:00+11:00
-slug: "faith-and-reason"
 categories: ["기독교"]
 tags: ["신앙", "이성", "실천"]
 draft: false

@@ -1,7 +1,6 @@
 ---
 title: "확률로 사고하기: 금융 의사결정을 위한 틀"
 date: 2026-10-21T09:00:00+11:00
-slug: "thinking-in-probabilities"
 categories: ["금융"]
 tags: ["의사결정", "위험", "시장"]
 draft: false

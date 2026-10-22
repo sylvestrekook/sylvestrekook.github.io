@@ -1,7 +1,6 @@
 ---
 title: "Thinking in Probabilities: A Framework for Financial Decisions"
 date: 2026-10-21T09:00:00+11:00
-slug: "thinking-in-probabilities"
 categories: ["Finance"]
 tags: ["decision-making", "risk", "markets"]
 draft: false

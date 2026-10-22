@@ -75,7 +75,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
 [languages]
   [languages.en]
     weight = 1
-    contentDir = "content"
+    contentDir = "content/en"
     languageName = "English"
     title = "Sylvestre KOOK"
     [languages.en.params]
@@ -87,3 +87,6 @@ outputs.home = ["HTML", "RSS", "JSON"]
     title = "Sylvestre KOOK"
     [languages.ko.params]
       description = "Sylvestre Kook의 개인 사이트 — 금융, 기술, 기독교."
+      [languages.ko.params.homeInfoParams]
+        Title = "Sylvestre KOOK"
+        Content = "**금융**, **기술**, **기독교**에 대해 씁니다 — 분석적이고 전문적이며 신앙에 기반한 기록."

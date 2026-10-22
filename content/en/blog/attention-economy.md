@@ -1,7 +1,6 @@
 ---
 title: "The Attention Economy: What Tools Actually Change"
 date: 2026-10-21T09:00:00+11:00
-slug: "attention-economy"
 categories: ["Technology"]
 tags: ["attention", "ai", "productivity"]
 draft: false
