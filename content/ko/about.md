@@ -24,6 +24,8 @@ draft: false
 ## 연락처
 
 - 이메일: sylvestre.kook@gmail.com
-- GitHub: [@sylvestre-kook](<REDACTED_URL>)
+- X (Twitter): [@sylvestreKook](https://x.com/sylvestreKook)
+- LinkedIn: [Sylvestre Kook](https://www.linkedin.com/in/sylvestrekook/)
+- Instagram: [@sylvestrekook](https://www.instagram.com/sylvestrekook/)
 
 *이 사이트는 독립적으로 유지됩니다. 견해는 개인의 것입니다.*

@@ -66,8 +66,9 @@ outputs.home = ["HTML", "RSS", "JSON"]
     Title = "Sylvestre KOOK"
     Content = "Writing on **Finance**, **Technology**, and **Christianity** — analytical, professional, and faith-driven."
   [params.socialIcons]
-    github = { url = "https://github.com/sylvestre-kook" }
-    email = { url = "mailto:sylvestre.kook@gmail.com" }
+    x = { url = "https://x.com/sylvestreKook" }
+    linkedin = { url = "https://www.linkedin.com/in/sylvestrekook/" }
+    instagram = { url = "https://www.instagram.com/sylvestrekook/" }
   [params.profileMode]
     enabled = true
     title = "Sylvestre KOOK"
