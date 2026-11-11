@@ -24,7 +24,7 @@ draft: false
 ## 연락처
 
 - 이메일: sylvestre.kook@gmail.com
-- X (Twitter): [@sylvestreKook](https://x.com/sylvestreKook)
+- X (Twitter): [@SylvestreKook](https://x.com/SylvestreKook)
 - LinkedIn: [Sylvestre Kook](https://www.linkedin.com/in/sylvestrekook/)
 - Instagram: [@sylvestrekook](https://www.instagram.com/sylvestrekook/)
 

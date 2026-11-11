@@ -24,7 +24,7 @@ This site is a working record — not a brochure. The goal is clarity over volum
 ## Contact
 
 - Email: sylvestre.kook@gmail.com
-- X (Twitter): [@sylvestreKook](https://x.com/sylvestreKook)
+- X (Twitter): [@SylvestreKook](https://x.com/SylvestreKook)
 - LinkedIn: [Sylvestre Kook](https://www.linkedin.com/in/sylvestrekook/)
 - Instagram: [@sylvestrekook](https://www.instagram.com/sylvestrekook/)
 
