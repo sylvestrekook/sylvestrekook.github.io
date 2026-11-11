@@ -23,7 +23,7 @@ draft: false
 
 ## 연락처
 
-- 이메일: <REDACTED_EMAIL>
+- 이메일: sylvestre.kook@gmail.com
 - GitHub: [@sylvestre-kook](<REDACTED_URL>)
 
 *이 사이트는 독립적으로 유지됩니다. 견해는 개인의 것입니다.*

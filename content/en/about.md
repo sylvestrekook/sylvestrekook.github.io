@@ -23,7 +23,7 @@ This site is a working record — not a brochure. The goal is clarity over volum
 
 ## Contact
 
-- Email: <REDACTED_EMAIL>
+- Email: sylvestre.kook@gmail.com
 - GitHub: [@sylvestre-kook](<REDACTED_URL>)
 
 *This site is independently maintained. Views are my own.*

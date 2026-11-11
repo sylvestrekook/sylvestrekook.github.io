@@ -67,7 +67,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
     Content = "Writing on **Finance**, **Technology**, and **Christianity** — analytical, professional, and faith-driven."
   [params.socialIcons]
     github = { url = "https://github.com/sylvestre-kook" }
-    email = { url = "mailto:<REDACTED_EMAIL>" }
+    email = { url = "mailto:sylvestre.kook@gmail.com" }
   [params.profileMode]
     enabled = true
     title = "Sylvestre KOOK"
