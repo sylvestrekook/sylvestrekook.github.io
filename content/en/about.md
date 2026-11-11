@@ -1,31 +1,20 @@
 ---
 title: "About — Sylvestre Kook"
-date: 2026-10-21T00:00:00+11:00
+date: 2026-11-12T00:00:00+11:00
 draft: false
 ---
 
-I write about the three things that shape how I think: **Finance**, **Technology**, and **Christianity**.
+I am a credit risk and lending professional based in Sydney, writing at the intersection of **Finance**, **Technology**, and **Christianity**.
 
-This site is a working record — not a brochure. The goal is clarity over volume, evidence over opinion, and a consistent point of view that connects how money works, how technology changes us, and what faith means for living well in both.
+This site is my working record. It connects analytical discipline with technological change and Christian conviction:
 
-## What you will find here
+- **Finance** — Practical risk management, credit fundamentals, and probability-based decision-making. How capital moves and where real exposure hides.
+- **Technology** — Tools, AI, and systems reshaping productivity and focus. Distinguishing meaningful behavioral shifts from mere noise.
+- **Christianity** — Honest reflection on faith, scripture, and ethical practice. A grounded pursuit of truth and stewardly living in a complex world.
 
-- **Finance** — practical analysis of markets, money, and decisions. How incentives move, where risk hides, and how to think in probabilities rather than certainties.
-- **Technology** — how tools reshape work, attention, and power. A focus on what actually changes behavior versus what is merely new.
-- **Christianity** — reflection on faith, scripture, and practice. Written honestly, open to scrutiny, and grounded in a desire to understand rather than to win.
+### Profiles
+- **LinkedIn**: [Sylvestre Kook](https://www.linkedin.com/in/sylvestrekook/)
+- **X (Twitter)**: [@SylvestreKook](https://x.com/SylvestreKook)
+- **Instagram**: [@sylvestrekook](https://www.instagram.com/sylvestrekook/)
 
-## How I write
-
-- **Analytical first.** Claims are supported with reasoning or data where possible.
-- **Professional tone.** No hype, no clickbait, no manufactured urgency.
-- **Faith-driven, not preachy.** The three pillars inform each other; I do not separate them into silos.
-- **Minimalist.** The interface gets out of the way so the ideas are what remain.
-
-## Contact
-
-- Email: sylvestre.kook@gmail.com
-- X (Twitter): [@SylvestreKook](https://x.com/SylvestreKook)
-- LinkedIn: [Sylvestre Kook](https://www.linkedin.com/in/sylvestrekook/)
-- Instagram: [@sylvestrekook](https://www.instagram.com/sylvestrekook/)
-
-*This site is independently maintained. Views are my own.*
+*Views expressed on this site are entirely my own and do not represent any employer or institution.*
