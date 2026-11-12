@@ -2,6 +2,8 @@
 title: "About — Sylvestre Kook"
 date: 2026-11-12T00:00:00+11:00
 draft: false
+hidemeta: false
+ShowToc: false
 ---
 
 I am a credit risk and lending professional based in Sydney, writing at the intersection of **Finance**, **Technology**, and **Christianity**.

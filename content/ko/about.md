@@ -2,6 +2,8 @@
 title: "소개 — Sylvestre Kook"
 date: 2026-11-12T00:00:00+11:00
 draft: false
+hidemeta: false
+ShowToc: false
 ---
 
 호주 시드니에서 여신 리스크 심사를 담당하고 있는 금융 실무자로서, **금융**, **기술**, **기독교**가 만나는 지점에 대해 글을 씁니다.
