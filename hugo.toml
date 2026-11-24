@@ -79,7 +79,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
       { name = "About", url = "/about/" }
     ]
 
-# ---- Bilingual: English (default, root) + Korean (/ko/) ----
+# ---- Monolingual: English ----
 [languages]
   [languages.en]
     weight = 1
@@ -107,41 +107,4 @@ outputs.home = ["HTML", "RSS", "JSON"]
     [[languages.en.menu.main]]
       name = "About"
       url = "/about/"
-      weight = 50
-
-  [languages.ko]
-    weight = 2
-    contentDir = "content/ko"
-    languageName = "한국어"
-    title = "Sylvestre KOOK"
-    [languages.ko.params]
-      description = "Sylvestre Kook의 개인 사이트 — 금융, 기술, 기독교."
-      [languages.ko.params.profileMode]
-        enabled = true
-        title = "Sylvestre KOOK"
-        subtitle = "**금융**, **기술**, **기독교**에 대해 씁니다 — 분석적이고 전문적이며 신앙에 기반한 기록."
-        buttons = [
-          { name = "글 목록", url = "/ko/blog/" },
-          { name = "카테고리", url = "/ko/categories/" },
-          { name = "소개", url = "/ko/about/" }
-        ]
-    [[languages.ko.menu.main]]
-      name = "블로그"
-      url = "/ko/blog/"
-      weight = 10
-    [[languages.ko.menu.main]]
-      name = "카테고리"
-      url = "/ko/categories/"
-      weight = 20
-    [[languages.ko.menu.main]]
-      name = "태그"
-      url = "/ko/tags/"
-      weight = 30
-    [[languages.ko.menu.main]]
-      name = "검색"
-      url = "/ko/search/"
-      weight = 40
-    [[languages.ko.menu.main]]
-      name = "소개"
-      url = "/ko/about/"
       weight = 50
